@@ -1,0 +1,13 @@
+.edit {
+  margin-top: 20px;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.edit input {
+  margin-bottom: 10px;
+}
+.visible {
+  display: none;
+}

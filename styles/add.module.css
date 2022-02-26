@@ -1,0 +1,42 @@
+.control {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.4rem;
+}
+.control label {
+  margin-bottom: 2px;
+}
+.control button {
+  background: green;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.control button:hover {
+  background: rgba(0, 128, 0, 0.822);
+  color: white;
+}
+.error {
+  background: rgba(255, 0, 0, 0.205);
+  color: red;
+  font-weight: lighter;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.success {
+  background: rgba(9, 255, 0, 0.205);
+  color: green;
+  font-weight: 350;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.hide {
+  display: none;
+}
+.alert{
+  display:flex;
+  justify-content: space-between;
+}
